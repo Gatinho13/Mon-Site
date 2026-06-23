@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 100" width="240" height="100">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8c98a"/>
+      <stop offset="50%" stop-color="#c9a24a"/>
+      <stop offset="100%" stop-color="#8a6d27"/>
+    </linearGradient>
+  </defs>
+  <!-- Stylized cat silhouette + berimbau arc -->
+  <path d="M22 78 Q 48 26 68 78" fill="none" stroke="url(#goldGrad)" stroke-width="1.6"/>
+  <circle cx="44" cy="78" r="3" fill="#c9a24a"/>
+  <!-- Berimbau arc symbol -->
+  <path d="M92 30 Q 104 52 92 75" fill="none" stroke="url(#goldGrad)" stroke-width="2"/>
+  <circle cx="92" cy="78" r="3.5" fill="#c9a24a"/>
+  <line x1="92" y1="30" x2="102" y2="30" stroke="#c9a24a" stroke-width="1.4"/>
+  <!-- CECA text style -->
+  <text x="122" y="54" font-family="Cinzel, serif" font-size="28" fill="url(#goldGrad)" letter-spacing="4">CECA</text>
+  <text x="122" y="76" font-family="Cinzel, serif" font-size="11" fill="#c9a24a" letter-spacing="3.5">ANGOLA</text>
+</svg>
